@@ -1,0 +1,208 @@
+{
+ "intents": [
+
+  {
+   "tag": "greeting",
+   "patterns": [
+    "hi",
+    "hello",
+    "hey",
+    "good morning",
+    "good afternoon",
+    "good evening",
+    "is anyone there",
+    "hello armourmind"
+   ],
+   "responses": [
+    "Hello! Welcome to ArmourMind AI Security Assistant.",
+    "Hi there! How can I help you with cybersecurity today?"
+   ]
+  },
+
+  {
+   "tag": "cybersecurity",
+   "patterns": [
+    "what is cybersecurity",
+    "define cybersecurity",
+    "explain cybersecurity",
+    "what does cybersecurity mean",
+    "why is cybersecurity important"
+   ],
+   "responses": [
+    "Cybersecurity is the practice of protecting networks, systems, and data from cyber attacks, breaches, and unauthorized access."
+   ]
+  },
+
+  {
+   "tag": "services",
+   "patterns": [
+    "what services do you provide",
+    "what are your services",
+    "what does armourmind do",
+    "tell me about your services",
+    "what solutions do you offer"
+   ],
+   "responses": [
+    "ArmourMind provides AI-powered penetration testing, vulnerability scanning, autonomous recon, and intelligent cyber defense."
+   ]
+  },
+
+  {
+   "tag": "penetration_testing",
+   "patterns": [
+    "what is penetration testing",
+    "what is pentesting",
+    "do you offer pentesting",
+    "explain penetration testing",
+    "why is penetration testing needed"
+   ],
+   "responses": [
+    "Penetration testing is a simulated cyber attack performed to identify vulnerabilities in systems before hackers exploit them."
+   ]
+  },
+
+  {
+   "tag": "vulnerability",
+   "patterns": [
+    "what is a vulnerability",
+    "what are vulnerabilities",
+    "how do vulnerabilities work",
+    "examples of vulnerabilities"
+   ],
+   "responses": [
+    "A vulnerability is a weakness in a system, application, or network that attackers can exploit to gain unauthorized access."
+   ]
+  },
+
+  {
+   "tag": "sql_injection",
+   "patterns": [
+    "what is sql injection",
+    "explain sql injection",
+    "how does sql injection work",
+    "example of sql injection"
+   ],
+   "responses": [
+    "SQL Injection is a web vulnerability where attackers manipulate database queries to access or modify data."
+   ]
+  },
+
+  {
+   "tag": "xss",
+   "patterns": [
+    "what is xss",
+    "explain cross site scripting",
+    "how does xss work",
+    "example of xss attack"
+   ],
+   "responses": [
+    "Cross Site Scripting (XSS) allows attackers to inject malicious scripts into web pages viewed by other users."
+   ]
+  },
+
+  {
+   "tag": "scanner",
+   "patterns": [
+    "what does the security scanner do",
+    "how does the scanner work",
+    "what is ai security scanner",
+    "scan my website",
+    "can armourmind scan websites"
+   ],
+   "responses": [
+    "The ArmourMind AI Security Scanner analyzes websites for security misconfigurations, vulnerabilities, and attack surfaces."
+   ]
+  },
+
+  {
+   "tag": "ai_security",
+   "patterns": [
+    "what is ai cybersecurity",
+    "how does ai help in cybersecurity",
+    "ai security systems",
+    "what is autonomous cybersecurity"
+   ],
+   "responses": [
+    "AI cybersecurity uses machine learning and automation to detect threats, simulate attacks, and respond to vulnerabilities faster than traditional systems."
+   ]
+  },
+
+  {
+   "tag": "threat_detection",
+   "patterns": [
+    "what is threat detection",
+    "how do you detect cyber threats",
+    "how does threat detection work"
+   ],
+   "responses": [
+    "Threat detection identifies suspicious activity in networks and systems to prevent cyber attacks."
+   ]
+  },
+
+  {
+   "tag": "company",
+   "patterns": [
+    "what is armourmind",
+    "tell me about armourmind",
+    "what company is armourmind",
+    "who created armourmind"
+   ],
+   "responses": [
+    "ArmourMind Infotech is an AI-powered cybersecurity platform focused on autonomous penetration testing and intelligent defense."
+   ]
+  },
+
+  {
+   "tag": "demo",
+   "patterns": [
+    "how can i request demo",
+    "can i get a demo",
+    "book a demo",
+    "how to see platform demo"
+   ],
+   "responses": [
+    "You can request a demo by clicking the 'Request Demo' button on the website."
+   ]
+  },
+
+  {
+   "tag": "contact",
+   "patterns": [
+    "how can i contact you",
+    "contact armourmind",
+    "support email",
+    "how to reach your team"
+   ],
+   "responses": [
+    "You can contact the ArmourMind team through the Contact page on our website."
+   ]
+  },
+
+  {
+   "tag": "thanks",
+   "patterns": [
+    "thank you",
+    "thanks",
+    "appreciate it",
+    "thank you very much"
+   ],
+   "responses": [
+    "You're welcome! Let me know if you need more cybersecurity help."
+   ]
+  },
+
+  {
+   "tag": "goodbye",
+   "patterns": [
+    "bye",
+    "goodbye",
+    "see you",
+    "talk later"
+   ],
+   "responses": [
+    "Goodbye! Stay secure with ArmourMind."
+   ]
+  }
+
+ ]
+}
